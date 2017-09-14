@@ -8,7 +8,7 @@
     document.onkeyup = function(event) {
         var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
         if (guessesSoFar.indexOf(userGuess) >=0) {
-            alert("Already guessed that letter! Try another")
+            alert("Already guessed that letter! Try another :)")
         }
         else {
 
